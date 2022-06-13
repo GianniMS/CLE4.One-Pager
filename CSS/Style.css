@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Acme', sans-serif;
+    background-color: #E8E1D9;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    font-size: 100%;
+}
+
+/*Header Styling*/
+header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0px 10%;
+
+    background-color: #E8E1D9;
+
+    height: 100px;
+
+    margin-bottom: 50px;
+}
+
+.headerimagesec {
+    height: 100px;
+    width: 100px;
+}
+
+.logocv {
+    height: 100%;
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.headertitle {
+    display: flex;
+    justify-content: center;
+
+    font-size: 80px;
+
+    color: #feb139;
+    text-shadow: 0 0 25px black;
+}
+
+.contactbut {
+    padding: 9px 25px;
+
+    background-color: #feb139;
+
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: 0.5s;
+}
+
+.contactbut:hover {
+    background-color: #f55353;
+    transform: scale(1.2);
+}
+
+
+/*Main Styling*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #E8E1D9;
+}
+
+.infosec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 600px;
+}
+
+.infotitle {
+    display: flex;
+    justify-content: center;
+
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-color: #feb139;
+    padding-left: 30px;
+    font-size: 21px;
+    margin-bottom: 75px;
+}
+
+.vpimages {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-bottom: 60px;
+}
+
+.vpimagespace {
+    width: 300px;
+    height: 250px;
+    margin-right: 60px;
+    transition: 0.5s;
+}
+
+.vpimagespace:hover {
+    transform: scale(1.3);
+}
+
+.vpimg {
+    width: 100%;
+    height: 100%;
+    border: 5px solid #feb139;
+    border-radius: 5px;
+}
+
+.imgdescription {
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer Styling*/
