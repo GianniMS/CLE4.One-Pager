@@ -1,5 +1,5 @@
-# Hogeschool Rotterdam CLE04 One Pager
-My one page website for my CLE04 project.
+# One Pager CLE04 | CMGT Hogeschool Rotterdam 
+This is the code for my one page website for CLE04. I made this for my studies at CMGT Hogeschool Rotterdam
 
-Feel free to take a look!
-- GMS
+Take a look!
+- GianniMS
